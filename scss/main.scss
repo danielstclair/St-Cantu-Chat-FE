@@ -1,0 +1,193 @@
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+
+body {
+	color: #1D1E1F;
+	background-color: #678E99;
+	font-family: 'Playfair Display';
+	text-align: center;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+	height: 100%;
+	margin: 0 auto; /* the bottom margin is the negative value of the footer's height */
+}
+
+.banner {
+	color: #1D1E1F;
+	border-bottom: solid 1px #D1DEDE;
+	margin: 0 auto;
+	background-color: #678E99;
+	h1 {
+		font-size: 1.5em;
+		padding: 1.2em 0 .8em 0;
+		text-shadow: rgb(199, 199, 199) .5px 1px 1px; }
+	h2 {
+		padding-bottom: 1.2em;}
+}
+
+.img-box {
+	min-height: 100px;
+	// background-image: url("img/metronome.gif");
+}
+
+.message-box {
+	border: solid 1px rgb(119, 119, 119);
+	margin: 0 auto;
+	max-width: 704px;
+	background-color: white;
+	color: white;
+	#message-board {
+		min-height: 100px;
+	}
+}
+
+.text-box {
+	margin: 2em 0;
+}
+
+
+
+.row {
+	/*margin-bottom: 20px;*/
+	border-bottom: 1px solid #960B12;
+	background-color: white;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	color: #1D1E1F;
+}
+
+
+#slideshow { 
+	// background-color: #1F1E1C;
+	margin: 50px auto; 
+	position: relative; 
+	// width: 240px; 
+	height: 180px; 
+	padding: 0px; 
+	box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+	div { 
+		position: absolute;
+		// height: 240px; 
+		top: 5px; 
+		left: 5px; 
+		right: 5px; 
+		bottom: 5px; }
+	.pics {
+		background-size: 100% auto;
+		background-repeat: no-repeat;}
+	#pic1 {
+		background-image: url("../img/Pendulum_1.gif");}
+	#pic2 {
+		background-image: url("../img/metronome.gif");}
+	#pic3 {
+		background-image: url("../img/snapping-fingers.gif");}
+	#pic4 {
+		background-image: url("../img/tapping_foot.gif");}
+
+	#pic5 {
+		background-image: url("../img/twirling-sticks.gif");}
+}
+
+.foot {
+	
+	
+	
+	position: relative;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin-bottom: 0;
+	.get-in-box {
+		padding: 20px 0;
+		// float: left;
+
+		// position: relative;
+		// padding-left: 
+	}
+	.get-in-button {
+		background-color: #1D1E1F;
+		border-top: solid 1px #D1DEDE;
+		color: rgb(199, 199, 199);
+		// float: right;
+		// text-align: right;
+		// width: 25%;
+		// position:relative;
+		// right: -50px;
+	}
+	#submit {
+		text-decoration: none;
+		color: #D1DEDE;
+		
+	}
+}
+
+
+
+// .foot, .push {
+// 	height: 100px; /* .push must be the same height as .footer */
+// }
+
+
+
+@media only screen and (min-width: 30em) {
+	#slideshow {
+		height: 280px;
+		#pic3 {
+			background-size: 100% 100%;
+		}
+	}
+}
+
+
+
+
+
+
+@media only screen and (min-width: 37em) {
+	#slideshow {
+		height: 400px;
+		.pics {
+			background-size: 100% 100%;}
+	}
+}
+
+
+
+
+
+
+@media only screen and (min-width: 48em) {
+	#slideshow {
+		width: 48em;
+		height: 480px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,113 @@
+* {
+  margin: 0; }
+
+html, body {
+  height: 100%; }
+
+body {
+  color: #1D1E1F;
+  background-color: #678E99;
+  font-family: 'Playfair Display';
+  text-align: center; }
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  /* This line and the next line are not necessary unless you need IE6 support */
+  height: 100%;
+  margin: 0 auto;
+  /* the bottom margin is the negative value of the footer's height */ }
+
+.banner {
+  color: #1D1E1F;
+  border-bottom: solid 1px #D1DEDE;
+  margin: 0 auto;
+  background-color: #678E99; }
+  .banner h1 {
+    font-size: 1.5em;
+    padding: 1.2em 0 .8em 0;
+    text-shadow: #c7c7c7 0.5px 1px 1px; }
+  .banner h2 {
+    padding-bottom: 1.2em; }
+
+.img-box {
+  min-height: 100px; }
+
+.message-box {
+  border: solid 1px #777777;
+  margin: 0 auto;
+  max-width: 704px;
+  background-color: white;
+  color: white; }
+  .message-box #message-board {
+    min-height: 100px; }
+
+.text-box {
+  margin: 2em 0; }
+
+.row {
+  /*margin-bottom: 20px;*/
+  border-bottom: 1px solid #960B12;
+  background-color: white;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  color: #1D1E1F; }
+
+#slideshow {
+  margin: 50px auto;
+  position: relative;
+  height: 180px;
+  padding: 0px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); }
+  #slideshow div {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px; }
+  #slideshow .pics {
+    background-size: 100% auto;
+    background-repeat: no-repeat; }
+  #slideshow #pic1 {
+    background-image: url("../img/Pendulum_1.gif"); }
+  #slideshow #pic2 {
+    background-image: url("../img/metronome.gif"); }
+  #slideshow #pic3 {
+    background-image: url("../img/snapping-fingers.gif"); }
+  #slideshow #pic4 {
+    background-image: url("../img/tapping_foot.gif"); }
+  #slideshow #pic5 {
+    background-image: url("../img/twirling-sticks.gif"); }
+
+.foot {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin-bottom: 0; }
+  .foot .get-in-box {
+    padding: 20px 0; }
+  .foot .get-in-button {
+    background-color: #1D1E1F;
+    border-top: solid 1px #D1DEDE;
+    color: #c7c7c7; }
+  .foot #submit {
+    text-decoration: none;
+    color: #D1DEDE; }
+
+@media only screen and (min-width: 30em) {
+  #slideshow {
+    height: 280px; }
+    #slideshow #pic3 {
+      background-size: 100% 100%; } }
+@media only screen and (min-width: 37em) {
+  #slideshow {
+    height: 400px; }
+    #slideshow .pics {
+      background-size: 100% 100%; } }
+@media only screen and (min-width: 48em) {
+  #slideshow {
+    width: 48em;
+    height: 480px; } }
+
+/*# sourceMappingURL=main.css.map */
