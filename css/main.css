@@ -12,11 +12,7 @@ body {
 
 .wrapper {
   min-height: 100%;
-  height: auto !important;
-  /* This line and the next line are not necessary unless you need IE6 support */
-  height: 100%;
-  margin: 0 auto;
-  /* the bottom margin is the negative value of the footer's height */ }
+  height: 100%; }
 
 .banner {
   color: #1D1E1F;
@@ -29,9 +25,6 @@ body {
     text-shadow: #c7c7c7 0.5px 1px 1px; }
   .banner h2 {
     padding-bottom: 1.2em; }
-
-.img-box {
-  min-height: 100px; }
 
 .message-box {
   border: solid 1px #777777;
@@ -54,7 +47,7 @@ body {
   color: #1D1E1F; }
 
 #slideshow {
-  margin: 50px auto;
+  margin: 50px auto 0;
   position: relative;
   height: 180px;
   padding: 0px;
@@ -80,11 +73,7 @@ body {
     background-image: url("../img/twirling-sticks.gif"); }
 
 .foot {
-  position: relative;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  margin-bottom: 0; }
+  margin-bottom: 20px; }
   .foot .get-in-box {
     padding: 20px 0; }
   .foot .get-in-button {
